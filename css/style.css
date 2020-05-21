@@ -122,5 +122,16 @@ header{
 .s_links ul li a i{
 	color: black;
 }
+.c-link{
+	    margin-top: 70px;
+}
+.list-1st ul li{
+	color: #ffffff;
+	font-size: 19px;
+}
+.list-2nd ul li a{
+	color: #ffffff;
+}
+
 /*contant end*/
 

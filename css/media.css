@@ -60,6 +60,20 @@
     width: 29px;
     margin-right: 19px !important;
 }
+.list-1st{
+    text-align:center;
+}
+.list-1st ul li {
+     font-size: 16px; 
+}
+.list-2nd{
+  text-align:center;
+  margin-top:30px;  
+}
+.c-link{
+   margin-top: 34px;
+}
+
 /*contant end*/
 
 
@@ -110,6 +124,18 @@
 .s_links {
     margin-top: 50px;
 }
+.list-1st{
+    text-align:center;
+}
+.list-1st ul li {
+     font-size: 16px; 
+}
+.list-2nd{
+    margin-top:40px;
+}
+.c-link{
+   margin-top: 40px;
+}
 /*contant end*/
 
 
@@ -136,12 +162,24 @@
 .s_links {
     margin-top: 55px;
 }
+.list-1st ul li {
+    font-size: 16px; 
+}
+.c-link{
+    margin-top: 50px;
+}
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+.list-1st ul li {
+    
+     font-size: 16px; 
+}
+.c-link{
+    margin-top: 60px;
+}
 
 }
 /* custom ex Large devices (desktops, 1200px and up)*/
