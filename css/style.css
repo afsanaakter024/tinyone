@@ -112,7 +112,7 @@ header{
 	color: #898989;
 }
 .button{
-	
+
 }
 .btn-custom{
 	font-weight: 700;
@@ -126,12 +126,25 @@ header{
 	font-size: 36px;
 	background-color: #fcdb00;
 	width: 45px;
+	transition: .3s
 	margin-right: 25px !important;
 	border-radius: 5px;
 
 }
 .s_links ul li a i{
 	color: black;
+}
+.f-hover:hover{
+	background-color: #228DEE;
+}
+.t-hover:hover{
+	background-color:#1DA1F2;
+}
+.g-hover:hover{
+	background-color:#EA4335;
+}
+.p-hover:hover{
+	background-color:#AE2C2E;
 }
 .c-link{
 	margin-top: 70px;
