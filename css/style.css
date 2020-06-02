@@ -102,22 +102,42 @@ header{
 .blog{
 	background-color: black;
 }
-.from{
-	margin-top: 30px;
-}
 .blog-t{
 	color:#fcdb00; 
 }
 .ash{
 	color: #898989;
 }
-.button{
-
+.from{
+	margin-top: 30px;
 }
+.from input{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101 !important;
+	width: 98%;
+	height: 50px;
+	border-radius: 5px;
+}
+.from input:focus{
+	outline: 0;
+	box-shadow: none;
+	border: none;
+}
+
 .btn-custom{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101 !important;
 	font-weight: 700;
 	background-color: #fcdb00;
-	padding: 6px 32px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	transition: .3s;
+	width: 95%;
+	height: 50px;
+}
+.btn-custom:hover{
+	color: #fcdb00 ;
+	background-color:white  ;
 }
 .s_links{
 	margin-top: 70px;
@@ -126,9 +146,9 @@ header{
 	font-size: 36px;
 	background-color: #fcdb00;
 	width: 45px;
-	transition: .3s
-	margin-right: 25px !important;
+	transition: .3s;
 	border-radius: 5px;
+	margin: 0px 23px;
 
 }
 .s_links ul li a i{
@@ -146,6 +166,9 @@ header{
 .p-hover:hover{
 	background-color:#AE2C2E;
 }
+footer{
+	background-color: black;
+}
 .c-link{
 	margin-top: 70px;
 }
@@ -155,6 +178,9 @@ header{
 }
 .list-2nd ul li a{
 	color: #ffffff;
+}
+.list-2nd ul li a:hover{
+	color: #fcdb00;
 }
 
 /*contant end*/
