@@ -25,7 +25,9 @@ header{
 /*header end*/
 
 /*slide start*/
-
+.car{
+	bottom: -80px;
+}
 .car li{
 	width: 15px;
 	height: 15px;
@@ -38,8 +40,7 @@ header{
 	padding-bottom: 100px;
 }
 .slider-text{
-	margin-top: 110px ;
-	margin-bottom: 185px;
+	margin-top: 40px ;
 }
 .t-h1{
 	font-weight: 700;
@@ -68,9 +69,7 @@ header{
 	color: white;
 	transform: scaleX(-1);
 }
-.slider_img{
-	padding: 50px 0;
-}
+
 .custom-img{
 	border-radius: 20px;
 } 	
@@ -146,7 +145,7 @@ header{
 	font-size: 36px;
 	background-color: #fcdb00;
 	width: 45px;
-	transition: .3s;
+	transition: .8s;
 	border-radius: 5px;
 	margin: 0px 23px;
 
@@ -156,21 +155,23 @@ header{
 }
 .f-hover:hover{
 	background-color: #228DEE;
+	transform: scale(1.1);
 }
 .t-hover:hover{
 	background-color:#1DA1F2;
+	transform: scale(1.1);
 }
 .g-hover:hover{
 	background-color:#EA4335;
+	transform: scale(1.1);
 }
 .p-hover:hover{
 	background-color:#AE2C2E;
+	transform: scale(1.1);
 }
 footer{
 	background-color: black;
-}
-.c-link{
-	margin-top: 70px;
+	padding-bottom: 30px;
 }
 .list-1st ul li{
 	color: #ffffff;
